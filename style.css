@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items: center;
+    color: aliceblue;
+
+   height: 100vh;
+   justify-content: center;
+   /* i saw diffrencs on it to doing 
+    justify-content: center;
+    after hight and before hight */
+    /* background unsplash.com it is free */
+    /* background: url("https://images.unsplash.com/photo-1559666126-84f389727b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=877&q=80"); */
+   
+    background-image: url("https://images.unsplash.com/photo-1542856391-010fb87dcfed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+background-size: cover;
+overflow: hidden;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+     font-size:20px;
+     text-align: center;
+    text-shadow: 0px 11px 3px rgb(223, 214, 215);
+}
+.clock{
+    display: flex;
+    /* text-align: center; */
+   
+    
+}
+.clock div{
+    margin: 5px;
+    /* text-align: center; */
+    position: relative;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgba(2, 2, 22, 0.854);
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+    text-shadow: 6px 6px 6px rgb(242, 238, 238) ;
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(158, 29, 141);
+
+}
+.clock #ampm{
+   bottom: 0;
+    /* right: 0; */
+    position:absolute;
+     width:60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(154, 32, 165);
+}
